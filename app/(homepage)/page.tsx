@@ -12,7 +12,7 @@ export default function Home() {
 
   useEffect(() => {
     store({});
-    // router.push("/new");
+    router.push("/new");
   });
 
   return <Loading />
